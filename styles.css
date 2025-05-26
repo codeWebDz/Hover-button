@@ -12,7 +12,7 @@ body{
 
 }
 .box{
-  width:15%;
+  width:50%;
   height: 70vh;
   display: flex;
   flex-direction: row;
@@ -106,6 +106,7 @@ body{
 
   z-index: 3;
   margin: 15px;
+  margin-right: -60%;
   padding: 13px;
   width: 120px;
   border-radius: 20px;
@@ -180,16 +181,17 @@ body{
   width: 100%;
 }
 
-
-
-
-/* footer */
-footer{
+ /* footer */
+ footer{
   position: absolute;
-  bottom: -2%;
+  bottom: -5%;
   font-size: 29px;
 }
 footer a , footer{
   color: #3c879e;
 
 }
+
+
+
+
